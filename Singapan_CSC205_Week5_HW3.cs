@@ -34,7 +34,7 @@ namespace Singapan_CSC205_Week5_HW3
 
                     return false;
                 }
-               //if it skips the if-conditional statement, we will reassign the firstChar (the original index position where 'a' appears) to the string index of the argument AND increment that index each time so it traverses through and iterates.
+               //if it skips the if-conditional statement, we will reassign firstChar (the original index position where 'a' appears) to the next index position of the argument as it traverses through.
                 else
                     firstChar = alphabet[index];
                     index++;
