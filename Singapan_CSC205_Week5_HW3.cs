@@ -27,13 +27,14 @@ namespace Singapan_CSC205_Week5_HW3
             //Conditional statement that while the index of 0 remains less than the total length of the user input string...
             while (index < alphabet.Length)
             {
-                // another sub conditional statement that checks if the first index position where 'a' appears precedes 
+                // another sub conditional statement that checks if the first index position of the string passed is before where the index position of 'a' first appears precedes it,
+                // it will return the value of the method as false because since 'a' is the first letter in the alphabet, there can be no other letter that precedes it.
                 if (alphabet[index] < firstChar)
                 {
 
                     return false;
                 }
-               //if it fails the if-conditional statement, we will reassign the firstChar (the original index position where 'a' appears) to the string index of the argument AND increment that index each time so it traverses through and iterates.
+               //if it skips the if-conditional statement, we will reassign the firstChar (the original index position where 'a' appears) to the string index of the argument AND increment that index each time so it traverses through and iterates.
                 else
                     firstChar = alphabet[index];
                     index++;
