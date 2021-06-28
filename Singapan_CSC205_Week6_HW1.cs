@@ -1,4 +1,7 @@
-﻿using System;
+//#1 - Exercise that uses StreamReader, StreamWriter, Command-Line Arguments. 
+//Write a program that reads a text file (C# source code for example), inserts line numbers, instead of displaying to the Console window, writes out to a text file. 
+
+using System;
 using System.IO;
 using System.Text;
 namespace Singapan_CSC205_Week6_HW1
