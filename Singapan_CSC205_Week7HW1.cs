@@ -8,7 +8,7 @@ using System;
 
 public abstract class Shape
 {
-    public abstract double Area(); //this is a method
+    public abstract double Area(); //this is a method is declared abstract because it is a method that is shared across all the child classes that contains specific functions.
     public static double GetArea(Shape shape)
     {
         return shape.Area();
