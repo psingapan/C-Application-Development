@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Singapan_CSC440_Mod3_5HW_Problem3</RootNamespace>
+  </PropertyGroup>
+
+</Project>
